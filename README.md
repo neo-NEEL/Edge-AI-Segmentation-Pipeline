@@ -68,14 +68,16 @@ Clone the repository and install dependencies:
 Bash
 git clone [https://github.com/neo-NEEL/Edge-AI-Segmentation-Pipeline.git](https://github.com/neo-NEEL/Edge-AI-Segmentation-Pipeline.git)
 cd Edge-AI-Segmentation-Pipeline
+
 pip install -r requirements.txt
+
 Download the model weights (.bin binary targets):
 Run the localized automated asset script to download the model framework weights/binary layer maps that are excluded from GitHub's tracking:
 
 Bash
 python download_assets.py
+
 Launch the Inference Dashboard:
 
 Bash
 python run_edge_inference.py
-   
